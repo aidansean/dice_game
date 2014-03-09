@@ -18,7 +18,7 @@ if(isset($_GET['task'])){
       break ;
     
     case 'save_score':
-      $query = 'INSERT INTO dicescores (name, score) VALUES ("' . mysql_real_escape_string($_GET['name']) . '", "' . mysql_real_escape_string($_GET['score']) . '")' ;
+      $query = 'INSERT INTO ' . $mysql_prefix . 'dicescores (name, score) VALUES ("' . mysql_real_escape_string($_GET['name']) . '", "' . mysql_real_escape_string($_GET['score']) . '")' ;
       $result = mysql_query($query) ;
       if(mysql_error()) $string[] = mysql_error() . ' - ' . $query ;
       break ;
