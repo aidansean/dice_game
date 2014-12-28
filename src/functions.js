@@ -54,7 +54,6 @@ function start(){
   roll() ;
 }
 
-
 function new_game(){
   var id
   for(var i=0 ; i<rows.length ; i++){

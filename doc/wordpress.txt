@@ -10,7 +10,6 @@ This project is a rewrite of a previous project  It emulates the popular dice ga
 The user clicks to roll the dice, with the interactions being detected by event listeners.  As the user fills in the scores the corresponding boxes are removed via the DOM.  Users can submit scores via AJAX which are then stored in a MySQL table.
 
 <h3>Challenges</h3>
-
 <dl>
 <dt><em>Challenge</em>: This page requires dynamic HTML content to allow the buttons to be removed as the user clicks them, and added as the game is reset.</dt>
 

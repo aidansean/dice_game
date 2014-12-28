@@ -1,92 +1,85 @@
-body
-{
+body{
   background-color : #ffcccc ;
   background-image : url('wallpaper.jpg') ;
 }
-h1, h2
-{
+h1{
+  font-family : arial , sans-serif ;
+  text-align : center ;
+  background : #ffeeee ;
+  padding-top : 0.5em ;
+  padding-bottom : 0.5em ;
+  font-style : normal ;
+  border : 2px solid black ;
+  width : 596px ;
+  margin : auto ;
+  margin-bottom : 10px ;
+  margin-top : 20px ;
+}
+h2{
   font-family : georgia , sans-serif ;
-  font-size : 24pt ;
   font-style : italic ;
   text-align : center ;
   background-color : #ffffff ;
   width : 596px ;
   padding : 0px ;
   margin : auto ;
-  margin-bottom : 10px ;
   border : 2px solid #000000 ;
-}
-h2
-{
   margin-top : 20px ;
   margin-bottom : 0px ;
   border-bottom : 0px solid #000000 ;
   font-size : 16pt ;
 }
-table
-{
+table{
   width : 600px ;
   margin : auto ;
   background-color : #ffffff ;
   border : 2px solid black ;
 }
-table#table_dice, table#roll
-{
+table#table_dice, table#roll{
   width : 596px ;
   border : 0px solid black ;
 }
-th, td
-{
+th, td{
   text-align : center ;
   font-family : arial ;
   font-size : 12pt ;
 }
-th
-{
+th{
   color : #ffffff ;
   background-color : #aa0000 ;
 }
-td
-{
+td{
   background-color : #ffeeee ;
   height : 	50px ;
   font-size : 20px ;
   padding : 2px ;
 }
-td.name
-{
+td.name{
   width : 180px ;
 }
-td.score
-{
+td.score{
   width : 45px ;
 }
-td.this_roll
-{
+td.this_roll{
   width : 45px ;
   padding : 0px ;
 }
-td.spacer
-{
+td.spacer{
   height : 20px ;
   background-color : #ffffff ;
 }
-td.roll
-{
+td.roll{
   background-color : #ffffff ;
 }
-td.dice_fade
-{
+td.dice_fade{
   color : #cccccc ;
 }
 
-td.dice_full
-{
+td.dice_full{
   color : #aa0000 ;
 }
 
-td.dice
-{
+td.dice{
   width : 150px ;
   height : 150px ;
   vertical-align : middle ;
@@ -98,19 +91,16 @@ td.dice
   margin : 0px ;
 }
 
-td.dice_full:hover
-{
+td.dice_full:hover{
   /*color : #ff0000 ;*/
 }
 
-span#nRolls, span#roll
-{
+span#nRolls, span#roll{
   font-family : georgia , sans-serif ;
   font-size : 16pt ;
 }
 
-input.button
-{
+input.button{
   width : 100px ;
   height : 20px ;
   font-size : 12px ;
@@ -118,30 +108,25 @@ input.button
   background-color : #ffffff ;
   border : 2px solid #000000 ;
 }
-input.score
-{
+input.score{
   width  : 40px ;
   height : 40px ;
   font-size : 20px ;
 }
-input#button_roll
-{
+input#button_roll{
   height : 40px ;
   font-size : 24px ;
 }
-input.button_full
-{
+input.button_full{
   border : 2px solid #000000 ;
   color : #000000 ;
 }
-input.button_fade
-{
+input.button_fade{
   border : 2px solid #ffffff ;
   color : #cccccc ;
 }
 
-div#roll_container
-{
+div#roll_container{
   width : 596px ;
   background-color : #ffffff ;
   border : 2px solid #000000 ;
