@@ -1,4 +1,4 @@
-This project is a rewrite of a previous project  It emulates the popular dice game, Yahtzee.  This game previusly used PHP, but was converted to Javascript once I became sufficiently skilled to rewrite it.
+This project is a rewrite of a previous project.  It emulates the popular dice game, Yahtzee.  This game previusly used PHP, but was converted to Javascript once I became sufficiently skilled to rewrite it.
 
 <h3>Links</h3>
 

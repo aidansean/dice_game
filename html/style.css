@@ -126,7 +126,7 @@ input.button_fade{
   color : #cccccc ;
 }
 
-div#roll_container{
+div#roll_container, div#websites_container{
   width : 596px ;
   background-color : #ffffff ;
   border : 2px solid #000000 ;
@@ -134,4 +134,13 @@ div#roll_container{
   margin-top : 10px ;
   margin-bottom : 10px ;
   text-align : center ;
+}
+
+
+a.blogpost, a.github{
+  color : black ;
+  text-decoration : none ;
+}
+a.blogpost:hover, a.github:hover{
+  text-decoration : underline ;
 }
